@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Roman Numeral Ordered List</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Beautiful Scenery</h2>
+    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Scenic view" width="500">
+
+    <!-- Table of 5 Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Peter Mutai</td>
+                <td>123 Street, Nairobi</td>
+                <td>+254712345678</td>
+                <td>petermutie@example.com</td>
+            </tr>
+            <tr>
+                <td>Ns Wako</td>
+                <td>456 Avenue, Mombasa</td>
+                <td>+254798765432</td>
+                <td>wako@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>789 Road, Kisumu</td>
+                <td>+254701234567</td>
+                <td>michaelbrown@example.com</td>
+            </tr>
+            <tr>
+                <td>Sarah Johnson</td>
+                <td>101 Boulevard, Eldoret</td>
+                <td>+254711223344</td>
+                <td>sarahj@example.com</td>
+            </tr>
+            <tr>
+                <td>David Wilson</td>
+                <td>202 Lane, Nakuru</td>
+                <td>+254722334455</td>
+                <td>davidwilson@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <!-- Name Field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+        <br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Select Your Country:</label>
+        <select id="country" name="country">
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox" id="traveling" name="interests" value="traveling">
+        <label for="traveling">Traveling</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
